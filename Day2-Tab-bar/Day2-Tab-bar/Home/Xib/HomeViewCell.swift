@@ -12,6 +12,7 @@ class HomeViewCell: UITableViewCell {
     @IBOutlet weak var titleContent: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        titleContent.textColor = .brown
         // Initialization code
     }
 

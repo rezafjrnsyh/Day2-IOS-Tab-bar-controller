@@ -21,6 +21,10 @@ class HomeContainerViewController: UIViewController {
 }
 
 extension HomeContainerViewController: UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count
     }
